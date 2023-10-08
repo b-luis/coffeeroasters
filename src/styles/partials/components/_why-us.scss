@@ -1,0 +1,147 @@
+.why-us {
+  display: flex;
+  flex-direction: column;
+  background: $darkBlue;
+  color: $background;
+  margin: 5em 0;
+  border-radius: 10px;
+
+  //   &::after {
+  //     content: "";
+  //     clear: both;
+  //   }
+}
+
+.why-us__choose {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.why-us__choose__heading {
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.why-us__choose__description {
+  color: $lightgray;
+}
+
+.why-us__features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.why-us__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: $porcelainGreen;
+  padding: 5rem 0;
+
+  .why-us__card__image {
+    margin-bottom: 3rem;
+  }
+}
+
+.why-us__card__heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.why-us__card__tagline {
+  padding: 0 2rem;
+}
+
+@media (width >= 768px) {
+  .why-us__card {
+    flex-direction: row;
+    padding: 2rem 0;
+    gap: 2rem;
+
+    .why-us__card__image {
+      margin-bottom: 0;
+    }
+    .why-us__card__heading {
+      font-size: 1.8rem;
+    }
+  }
+
+  .why-us__card__image__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+  }
+
+  .why-us__features {
+    padding: 1.5rem 3rem;
+  }
+
+  .why-us__card__tagline {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (width >= 1024px) {
+  .why-us {
+    position: relative;
+    height: 600px;
+  }
+  .why-us__features {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 8rem;
+    position: absolute;
+    top: 50%;
+  }
+
+  .why-us__choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .why-us__choose__heading {
+      font-size: 2.5rem;
+    }
+
+    .why-us__choose__description {
+      width: 50%;
+      font-size: 1.2rem;
+    }
+  }
+
+  .why-us__card {
+    flex-direction: column;
+    padding: 6rem 1rem;
+  }
+
+  .why-us__card__image {
+    text-align: center;
+    height: 4.5rem;
+  }
+  .why-us__card__tagline {
+    font-size: 1.3rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .why-us {
+    position: relative;
+    height: 600px;
+  }
+  .why-us__features {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 8rem;
+    position: absolute;
+    top: 50%;
+  }
+  
+}

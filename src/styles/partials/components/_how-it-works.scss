@@ -1,0 +1,89 @@
+.how__wrapper {
+  color: $darkBlue;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.how__wrapper__heading {
+  color: $gray;
+  padding: 2rem 0;
+}
+
+.how-it-works__card__heading {
+  color: $cream;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.how-it-works__card__step {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.create-your-plan {
+  display: flex;
+  justify-content: center;
+}
+
+@media (width >= 768px) {
+  .how-it-works {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .how__wrapper__heading {
+    text-align: left;
+  }
+
+  .how-it-works__card {
+    display: grid;
+    padding-right: 1.5rem;
+  }
+
+  .how-it-works__card__heading {
+    height: 130px;
+  }
+  .how-it-works__card__step {
+    line-height: 2rem;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+  }
+
+  .create-your-plan {
+    justify-content: start;
+  }
+
+  .circle {
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .line {
+    border-top: 1px solid #0e8784;
+    width: 100%;
+  }
+}
+
+@media (width >= 1024px) {
+  .how__wrapper,
+  .create-your-plan {
+    padding: 0 8rem;
+  }
+  .how__wrapper {
+    margin-top: 20rem;
+  }
+
+  .how-it-works__card {
+    padding-right: 8.5rem;
+  }
+  .how-it-works__card__step {
+    padding-bottom: 2rem;
+  }
+
+  .how-it-works__card__info {
+    margin-top: 3rem;
+  }
+}

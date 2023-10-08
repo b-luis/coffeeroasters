@@ -1,0 +1,14 @@
+// Base
+@import "./partials/base/global";
+@import "./partials/base/variables";
+@import "./partials/base/reset.scss";
+
+// Components
+@import "./partials/components/header";
+@import "./partials/components/collection";
+@import "./partials/components/why-us";
+@import "./partials/components/how-it-works";
+@import "./partials/components/footer";
+
+// Routes
+@import "./partials/routes/home";
