@@ -5,7 +5,7 @@ import { Collection, WhyUsCard, HowItWorks } from "../components";
 
 const Home = () => {
   return (
-    <main>
+    <>
       <section className="hero">
         <h1 className="hero-heading">Great coffee made simple.</h1>
         <p className="hero-tagline">
@@ -54,7 +54,7 @@ const Home = () => {
           Create your plan
         </Link>
       </div>
-    </main>
+    </>
   );
 };
 

@@ -1,14 +1,14 @@
 .header {
   font-family: $main-font;
   display: flex;
-  padding: 1.2rem 0;
+  padding: 2rem 0;
   position: relative;
   justify-content: space-between;
   align-items: center;
 }
 
 .header__logo {
-  max-width: 100%;
+  width: 180px;
 }
 
 .header__mobile-toggle {
